@@ -20,5 +20,5 @@ func main() {
 		fmt.Fprintf(os.Stderr, "error reading input: %v", err)
 	}
 
-	fmt.Println("total words : %v \n", wordCount)
+	fmt.Printf("total words : %v \n", wordCount)
 }
