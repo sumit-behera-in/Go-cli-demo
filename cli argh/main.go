@@ -13,8 +13,8 @@ func main() {
 
 	// flag get command line flags line -pass
 	//flag.String("name", "default value", "desc")
-	username := flag.String("username", "", "used as a username")
-	pass := flag.String("pass", "", "get pass")
+	username := flag.String("username", "default", "used as a username")
+	pass := flag.String("pass", "default", "get pass")
 	flag.Parse()
 
 	fmt.Printf("\nusername :%v \npassword :%v", *username, *pass)
