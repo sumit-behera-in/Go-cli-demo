@@ -18,3 +18,14 @@ func Test_greeting(t *testing.T) {
 		t.Errorf("expected %v; got %v;", expected, got)
 	}
 }
+
+func Test_main(t *testing.T) {
+	tests := []struct {
+		name string
+	}{
+		// TODO: Add test cases.
+	}
+	for range tests {
+		main()
+	}
+}
